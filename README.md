@@ -1,2 +1,7 @@
-# Machine-learning-using-python
-All my codes using python in Machine learning are available here. 
+import numpy
+
+speed = [86,87,88,86,87,85,86]
+
+x = numpy.std(speed)
+
+print(x)
